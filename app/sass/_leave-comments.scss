@@ -1,0 +1,20 @@
+.leave-comments {
+  margin: 0 0 27px;
+  text-align: right;
+}
+.leave-comments__title {
+  position: relative;
+  margin: 0 0 6px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  text-align: left;
+
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+}
+

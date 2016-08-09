@@ -1,0 +1,61 @@
+.social-networks {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 11px;
+}
+.social-networks__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin: 0 2px;
+  border: 2px solid #2488ff;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 16px;
+    fill: #2488ff;
+  }
+
+  &.social-networks_facebook {
+    border-color: #1e81ce;
+
+    svg {
+      fill: #1e81ce;
+    }
+
+  }
+  &.social-networks_pinterest {
+    border-color: #ff3902;
+
+    svg {
+      fill: #ff3902;
+    }
+
+  }
+  &.social-networks_twitter {
+    border-color: #2488ff;
+
+    svg {
+      fill: #2488ff;
+    }
+
+  }
+
+}
+.social-networks_2 {
+  position: absolute;
+  bottom: 35px;
+  left: 2px;
+}
+

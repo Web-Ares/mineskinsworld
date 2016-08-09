@@ -1,0 +1,36 @@
+.get-app {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  max-width: 1040px;
+  padding: 41px 30px 30px;
+  margin: 0 auto;
+}
+.get-app__inner {
+  width: 728px;
+  margin: 0 0 0 auto;
+  padding: 21px 0 22px 33px;
+  background: url("../img/get-app-bg.jpg") no-repeat #000;
+  background-size: cover;
+  font-size: 26px;
+  line-height: 27px;
+  color: #fff;
+
+  .btn {
+    vertical-align: middle;
+  }
+
+}
+.get-app__newest {
+  display: inline-block;
+  vertical-align: middle;
+  width: 450px;
+  margin: 3px 10px 0 0;
+
+  span {
+    color: #f8c318;
+    @include main-font2();
+  }
+
+}
+
